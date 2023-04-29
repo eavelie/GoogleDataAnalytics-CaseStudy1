@@ -42,8 +42,20 @@ Moreno telah menetapkan tujuan yang jelas: Merancang strategi pemasaran yang ber
     
 * Tim analitik pemasaran Cyclistic: Sebuah tim analis data yang bertanggung jawab untuk mengumpulkan, menganalisis, dan melaporkan data yang membantu memandu strategi pemasaran Cyclistic. Anda bergabung dengan tim ini enam bulan lalu dan sibuk mempelajari misi dan tujuan bisnis Cyclistic — serta bagaimana Anda, sebagai analis data junior, dapat membantu Cyclistic untuk mencapainya.
 
-## Langkah Pertama: Ask/Bertanya
-### Pertanyaan Inti:
+## Langkah Pertama: Ask/Menanyakan
+### Pertanyaan Inti
     1. Bagaimana anggota tahunan dan pengendara biasa menggunakan sepeda secara berbeda?
     2. Mengapa pengendara biasa membeli keanggotaan tahunan Cyclistic?
     3. Bagaimana Cyclistic menggunakan media digital untuk mempengaruhi pengendara biasa untuk menjadi anggota?
+### Tugas Bisnis
+    1. Mengidentifikasi perbedaan penggunaan sepeda Cyclistic anggota tahunan dan pengendara biasa.
+    2. Mencari alasan dibalik pembelian keanggotaan tahunan oleh pengendara biasa
+    3. Memberikan rekomendasi penggunaan media digital Cyclistic untuk mempersuasi pengendara biasa membeli keanggotaan tahunan.
+
+## Langkah Kedua: Prepare/Mempersiapkan
+### Dataset
+Dataset untuk analisis ini disediakan oleh Motivate International Inc. dan diakses melalui [laman berikut](https://divvy-tripdata.s3.amazonaws.com/index.html). Dalam studi kasus ini, dataset tersebut berperan sebagai data internal primer perusahaan fiksi Cyclistic. Dataset tersebut bersifat publik dengan persetujuan lisensi yang tertera di [laman berikut](https://ride.divvybikes.com/data-license-agreement). Pengelolaan data dilakukan sesuai dengan ketentuan dalam lisensi tersebut. Dataset yang digunakan hanya 12 dataset terbaru, yaitu dataset dari bulan April 2022 sampai Maret 2023. Dataset ini menyediakan informasi terkait penggunaan sepeda Cyclistic oleh kedua jenis anggota, sehingga dataset ini relevan untuk digunakan dalam analisis.
+
+## Langkah Ketiga: Process/Memproses
+### Alat
+Alat yang digunakan untuk memproses data adalah server MySQL lokal.
