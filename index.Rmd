@@ -1,0 +1,49 @@
+---
+title: "Studi Kasus 1 Google Data Analytics"
+author: "Athallah N. R. A"
+date: "2023-04-29"
+output: html_document
+---
+
+## Pendahuluan
+Ini adalah dokumentasi dari studi kasus yang saya kerjakan sebagai bagian dari kursus Google Data Analytics. Studi kasus ini bertujuan untuk mengasah kemampuan saya dalam analisis data menggunakan *tools* yang relevan. Langkah-langkah proses analisis yang digunakan dalam studi kasus ini beserta hasilnya adalah sebagai berikut.
+
+    1. Ask (menanyakan)
+       Hasil: Pernyataan yang jelas tentang tugas bisnis
+    2. Prepare (mempersiapkan)
+       Hasil: Deskripsi dari semua sumber data yang digunakan
+    3. Process (memproses)
+       Hasil: Dokumentasi tahap pembersihan atau manipulasi data
+    4. Analyze (menganalisis)
+       Hasil: Ringkasan analisis
+    5. Share (membagikan)
+       Hasil: - Visualisasi data dan temuan utama
+              - Tiga rekomendasi teratas berdasarkan analisis
+Harapannya, studi kasus ini dapat menjadi pembelajaran yang baik bagi saya dalam bidang data analitik.
+
+## Skenario dan Tugas Bisnis
+Anda adalah seorang analis data junior yang bekerja di tim analis pemasaran di Cyclistic, sebuah perusahaan berbagi sepeda di Chicago. Direktur pemasaran percaya bahwa kesuksesan perusahaan di masa depan tergantung pada upaya untuk memaksimalkan jumlah keanggotaan tahunan. Oleh karena itu, tim Anda ingin memahami bagaimana pengendara kasual dan anggota tahunan menggunakan sepeda Cyclistic secara berbeda. Dari wawasan ini, tim Anda akan merancang strategi pemasaran baru untuk mengubah pengendara biasa menjadi anggota tahunan. Tetapi pertama-tama, para eksekutif Cyclistic harus menyetujui rekomendasi Anda, sehingga rekomendasi tersebut harus didukung dengan wawasan data yang menarik dan visualisasi data profesional.
+
+## Tentang Perusahaan
+Pada 2016, Cyclistic meluncurkan penawaran berbagi sepeda yang sukses. Sejak itu, program tersebut telah berkembang menjadi armada 5.824 sepeda yang dilacak secara geografis dan dikunci ke dalam jaringan 692 stasiun di seluruh Chicago. Sepeda dapat diakses dari satu stasiun dan dikembalikan ke stasiun lainnya kapan pun di dalam sistem.
+
+Sampai saat ini, strategi pemasaran Cyclistic mengandalkan upaya untuk membangun kesadaran umum dan menarik segmen konsumen yang luas. Salah satu pendekatan yang membantu mewujudkan hal ini adalah fleksibilitas harga: tiket sekali jalan, tiket sehari penuh, dan keanggotaan tahunan. Pelanggan yang membeli tiket sekali jalan atau tiket sehari penuh disebut sebagai pengendara kasual. Pelanggan yang membeli keanggotaan tahunan adalah anggota Cyclistic.
+
+Analis keuangan Cyclistic telah menyimpulkan bahwa anggota tahunan jauh lebih menguntungkan dibandingkan pengendara biasa. Meskipun fleksibilitas harga membantu Cyclistic menarik lebih banyak pelanggan, Moreno percaya bahwa memaksimalkan jumlah anggota tahunan akan menjadi kunci pertumbuhan di masa depan. Daripada membuat kampanye pemasaran yang menargetkan pelanggan baru, Moreno percaya bahwa ada peluang untuk mengubah pengendara biasa menjadi anggota. Ia mencatat bahwa pengendara kasual sudah mengetahui program Cyclistic dan telah memilih Cyclistic untuk kebutuhan mobilitas mereka.
+
+Moreno telah menetapkan tujuan yang jelas: Merancang strategi pemasaran yang bertujuan untuk mengubah pengendara biasa menjadi anggota tahunan. Namun, untuk melakukannya, tim analis pemasaran perlu lebih memahami perbedaan antara anggota tahunan dan pengendara biasa, mengapa pengendara akan bersedia membeli keanggotaan, dan bagaimana media digital dapat memengaruhi taktik pemasaran mereka. Moreno dan timnya tertarik untuk menganalisis data perjalanan sepeda Cyclistic untuk mengidentifikasi tren.
+
+## Stakeholders dan Tim
+* Cyclistic: Program berbagi sepeda yang menampilkan lebih dari 5.800 sepeda dan 600 stasiun dok. Cyclistic membedakan diri dari perusahaan lain dengan juga menawarkan sepeda reclining, hand tricycles, dan sepeda kargo, menjadikan bike-share lebih inklusif bagi penyandang disabilitas dan pengendara yang tidak dapat menggunakan sepeda roda dua standar. Mayoritas pengendara memilih sepeda tradisional; sekitar 8% pengendara menggunakan opsi bantuan. Pengguna sepeda lebih cenderung bersepeda untuk bersantai, tetapi sekitar 30% menggunakannya untuk bepergian ke tempat kerja setiap hari.
+    
+* Lily Moreno: Direktur pemasaran dan manajer Anda. Moreno bertanggung jawab atas pengembangan kampanye dan inisiatif untuk mempromosikan program berbagi sepeda. Ini mungkin termasuk email, media sosial, dan saluran lainnya.
+    
+* Tim eksekutif Cyclistic: Tim eksekutif yang sangat berorientasi pada detail akan memutuskan apakah mereka menyetujui program pemasaran yang direkomendasikan.
+    
+* Tim analitik pemasaran Cyclistic: Sebuah tim analis data yang bertanggung jawab untuk mengumpulkan, menganalisis, dan melaporkan data yang membantu memandu strategi pemasaran Cyclistic. Anda bergabung dengan tim ini enam bulan lalu dan sibuk mempelajari misi dan tujuan bisnis Cyclistic — serta bagaimana Anda, sebagai analis data junior, dapat membantu Cyclistic untuk mencapainya.
+
+## Langkah Pertama: Ask/Bertanya
+### Pertanyaan Inti:
+    1. Bagaimana anggota tahunan dan pengendara biasa menggunakan sepeda secara berbeda?
+    2. Mengapa pengendara biasa membeli keanggotaan tahunan Cyclistic?
+    3. Bagaimana Cyclistic menggunakan media digital untuk mempengaruhi pengendara biasa untuk menjadi anggota?
